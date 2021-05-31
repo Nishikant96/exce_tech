@@ -5,8 +5,7 @@
 ```
 import { useState } from "react";
 export default function App() {
-  const curState = { todo: [] };
-  const [state, setState] = useState(curState);
+  const [state, setState] = useState({ todo: [] });
   const [inputState, setInputState] = useState("");
 
   const handleChange = (e) => {
