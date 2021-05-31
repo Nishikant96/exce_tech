@@ -105,6 +105,8 @@ console.log(newObj);
 
 ```
 
+```
+
 var obj = [
 { id: 4, name: "abc" },
 { id: 10, name: "ab2" },
@@ -114,7 +116,5 @@ var obj = [
 obj.sort((a,b)=>{return a.id<b.id? -1:1 });
 
 console.log(obj);
-
-```
 
 ```
